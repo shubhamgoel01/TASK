@@ -1,0 +1,334 @@
+{
+	"id": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+	"name": "MobileCompany",
+	"description": "",
+	"order": [
+		"e27daf3a-8601-2b6d-352b-3d7713b7d14c",
+		"18c60b28-4b86-9cff-1745-9ef9a9e22a00",
+		"d1837796-bbf3-033d-49c2-96a9592fd55d",
+		"c533c283-e1c3-affe-879e-6ca6ce4afb0d",
+		"b431d7b1-6d3c-1a59-0d44-ebd736ca45c0",
+		"3d84719d-60e3-ad11-1f33-c293bde6e70f",
+		"6d199e9a-488a-9f77-411d-1bb9e7558f01",
+		"3fc64617-6dc2-2240-62d8-1eefaea4c28e",
+		"db76e0e6-4f9a-eb5d-c0d1-a6c8fa2446a6",
+		"5c86f58f-129a-b130-83a9-fce49a36cb84"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1629536531720,
+	"owner": "16071362",
+	"public": false,
+	"requests": [
+		{
+			"id": "18c60b28-4b86-9cff-1745-9ef9a9e22a00",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/customer/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Customer GET Request by ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629536593507,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"company_name\": \"company Aygg\",\n        \"phone\": \"1234567890\",\n        \"email\": \"company@gmail.com\",\n        \"gstn\": \"18AABCU9603R1ZM\",\n        \"address\": \"abc address\",\n        \"city\": \"hdyerabad\",\n        \"state\": \"tel\",\n        \"pincode\": \"500046\",\n        \"status\": \"status high\",\n        \"end_date\": \"2021-08-25\",\n        \"no_of_license\": 4,\n        \"contact_person\": \"contact person \"\n    }"
+		},
+		{
+			"id": "3d84719d-60e3-ad11-1f33-c293bde6e70f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/company/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "company req GET",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537562768,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "3fc64617-6dc2-2240-62d8-1eefaea4c28e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/company/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "company req POST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537599969,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "5c86f58f-129a-b130-83a9-fce49a36cb84",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/company/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "company req DELETE",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537643308,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "6d199e9a-488a-9f77-411d-1bb9e7558f01",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/company/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "company req GET by ID",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537576706,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "b431d7b1-6d3c-1a59-0d44-ebd736ca45c0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/customer/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "DELETE request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537393807,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "c533c283-e1c3-affe-879e-6ca6ce4afb0d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/customer/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "request POST",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537371158,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "d1837796-bbf3-033d-49c2-96a9592fd55d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/customer/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "PUT request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537348520,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "db76e0e6-4f9a-eb5d-c0d1-a6c8fa2446a6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/company/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "company req PUT",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629537622426,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"customer_name\": \"shyam\",\n        \"age\": 22\n    }"
+		},
+		{
+			"id": "e27daf3a-8601-2b6d-352b-3d7713b7d14c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:8000/customer/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "ebcf8186-6bda-eea0-6864-71eb6a3357dc",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Customer GET Request",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1629536574337,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "    {\n        \"company_name\": \"company Aygg\",\n        \"phone\": \"1234567890\",\n        \"email\": \"company@gmail.com\",\n        \"gstn\": \"18AABCU9603R1ZM\",\n        \"address\": \"abc address\",\n        \"city\": \"hdyerabad\",\n        \"state\": \"tel\",\n        \"pincode\": \"500046\",\n        \"status\": \"status high\",\n        \"end_date\": \"2021-08-25\",\n        \"no_of_license\": 4,\n        \"contact_person\": \"contact person \"\n    }"
+		}
+	]
+}
